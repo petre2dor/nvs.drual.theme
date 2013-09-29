@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+#page, #header, #main-wrapper, #footer-wrapper{
+	background: url("http://nuvasuparati.info/nuvasuparati-theme/images/billie_holiday.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#secondary-menu-links{
+    background: none repeat scroll 0 0 #303439;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    padding: 0.8125em 20px 0.75em 20px;
+    position: relative;
+    text-align: center;
+}
+
+#main-menu{
+	text-align: center;
+}
+
+
+#main-menu ul{
+	display: inline-block;
+}
+
+
+#secondary-menu-links a {
+    color: #E4E4E4 !important;
+    font-size: 12px;
+    margin: 7px;
+}
+
+#main-menu-links{
+	font-family: 'Open Sans';
+    text-align: center;
+}
+
+#main-menu-links > li {
+    border-bottom: 1px solid #DCDCD1;
+    border-top: 1px solid #DCDCD1;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#main-menu-links li a.active, #main-menu-links a:hover, #main-menu-links a:focus {
+    background: none;
+    border-bottom: 2px solid #A9A8AD;
+    border-top: 2px solid #A9A8AD;
+}
+
+#main-menu-links > li > a {
+    color: #000000;
+    font-size: small;
+    font-weight: normal;
+    background: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.sidebar .block {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-color: #D9D9D9;
+}
+
+a {
+    color: #A9A8AD;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #C64400;
+}
+
+#footer{
+	border-top: 1px solid #DCDCD1;
+}
+
+#footer-wrapper{
+	color: #4A4A4A;
+}
+
+#footer-wrapper a {
+    color: #A9A8AD;
+}
