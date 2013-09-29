@@ -67,6 +67,10 @@ body {
     border-color: #D9D9D9;
 }
 
+.breadcrumb {
+  display: none;
+}
+
 a {
     color: #A9A8AD;
     font-weight: bold;
